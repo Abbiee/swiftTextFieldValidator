@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		841514751EC79DEE008A8367 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841514741EC79DEE008A8367 /* AppDelegate.swift */; };
+		841514771EC79DEE008A8367 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841514761EC79DEE008A8367 /* ViewController.swift */; };
+		8415147A1EC79DEE008A8367 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841514781EC79DEE008A8367 /* Main.storyboard */; };
+		8415147C1EC79DEE008A8367 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8415147B1EC79DEE008A8367 /* Assets.xcassets */; };
+		8415147F1EC79DEE008A8367 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8415147D1EC79DEE008A8367 /* LaunchScreen.storyboard */; };
+		8415148A1EC79DEE008A8367 /* swift3FormValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841514891EC79DEE008A8367 /* swift3FormValidatorTests.swift */; };
+		841514951EC79DEE008A8367 /* swift3FormValidatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841514941EC79DEE008A8367 /* swift3FormValidatorUITests.swift */; };
+		841514A31EC7A022008A8367 /* formValidatorSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841514A21EC7A022008A8367 /* formValidatorSwift.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		841514861EC79DEE008A8367 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841514691EC79DED008A8367 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 841514701EC79DED008A8367;
+			remoteInfo = swift3FormValidator;
+		};
+		841514911EC79DEE008A8367 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841514691EC79DED008A8367 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 841514701EC79DED008A8367;
+			remoteInfo = swift3FormValidator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		841514711EC79DEE008A8367 /* swift3FormValidator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift3FormValidator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		841514741EC79DEE008A8367 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		841514761EC79DEE008A8367 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		841514791EC79DEE008A8367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8415147B1EC79DEE008A8367 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8415147E1EC79DEE008A8367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		841514801EC79DEE008A8367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841514851EC79DEE008A8367 /* swift3FormValidatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift3FormValidatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		841514891EC79DEE008A8367 /* swift3FormValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift3FormValidatorTests.swift; sourceTree = "<group>"; };
+		8415148B1EC79DEE008A8367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841514901EC79DEE008A8367 /* swift3FormValidatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift3FormValidatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		841514941EC79DEE008A8367 /* swift3FormValidatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift3FormValidatorUITests.swift; sourceTree = "<group>"; };
+		841514961EC79DEE008A8367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841514A21EC7A022008A8367 /* formValidatorSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = formValidatorSwift.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8415146E1EC79DED008A8367 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841514821EC79DEE008A8367 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8415148D1EC79DEE008A8367 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		841514681EC79DED008A8367 = {
+			isa = PBXGroup;
+			children = (
+				841514731EC79DEE008A8367 /* swift3FormValidator */,
+				841514881EC79DEE008A8367 /* swift3FormValidatorTests */,
+				841514931EC79DEE008A8367 /* swift3FormValidatorUITests */,
+				841514721EC79DEE008A8367 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		841514721EC79DEE008A8367 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				841514711EC79DEE008A8367 /* swift3FormValidator.app */,
+				841514851EC79DEE008A8367 /* swift3FormValidatorTests.xctest */,
+				841514901EC79DEE008A8367 /* swift3FormValidatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		841514731EC79DEE008A8367 /* swift3FormValidator */ = {
+			isa = PBXGroup;
+			children = (
+				841514741EC79DEE008A8367 /* AppDelegate.swift */,
+				841514761EC79DEE008A8367 /* ViewController.swift */,
+				841514A21EC7A022008A8367 /* formValidatorSwift.swift */,
+				841514781EC79DEE008A8367 /* Main.storyboard */,
+				8415147B1EC79DEE008A8367 /* Assets.xcassets */,
+				8415147D1EC79DEE008A8367 /* LaunchScreen.storyboard */,
+				841514801EC79DEE008A8367 /* Info.plist */,
+			);
+			path = swift3FormValidator;
+			sourceTree = "<group>";
+		};
+		841514881EC79DEE008A8367 /* swift3FormValidatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				841514891EC79DEE008A8367 /* swift3FormValidatorTests.swift */,
+				8415148B1EC79DEE008A8367 /* Info.plist */,
+			);
+			path = swift3FormValidatorTests;
+			sourceTree = "<group>";
+		};
+		841514931EC79DEE008A8367 /* swift3FormValidatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				841514941EC79DEE008A8367 /* swift3FormValidatorUITests.swift */,
+				841514961EC79DEE008A8367 /* Info.plist */,
+			);
+			path = swift3FormValidatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		841514701EC79DED008A8367 /* swift3FormValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841514991EC79DEE008A8367 /* Build configuration list for PBXNativeTarget "swift3FormValidator" */;
+			buildPhases = (
+				8415146D1EC79DED008A8367 /* Sources */,
+				8415146E1EC79DED008A8367 /* Frameworks */,
+				8415146F1EC79DED008A8367 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swift3FormValidator;
+			productName = swift3FormValidator;
+			productReference = 841514711EC79DEE008A8367 /* swift3FormValidator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		841514841EC79DEE008A8367 /* swift3FormValidatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8415149C1EC79DEE008A8367 /* Build configuration list for PBXNativeTarget "swift3FormValidatorTests" */;
+			buildPhases = (
+				841514811EC79DEE008A8367 /* Sources */,
+				841514821EC79DEE008A8367 /* Frameworks */,
+				841514831EC79DEE008A8367 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841514871EC79DEE008A8367 /* PBXTargetDependency */,
+			);
+			name = swift3FormValidatorTests;
+			productName = swift3FormValidatorTests;
+			productReference = 841514851EC79DEE008A8367 /* swift3FormValidatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8415148F1EC79DEE008A8367 /* swift3FormValidatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8415149F1EC79DEE008A8367 /* Build configuration list for PBXNativeTarget "swift3FormValidatorUITests" */;
+			buildPhases = (
+				8415148C1EC79DEE008A8367 /* Sources */,
+				8415148D1EC79DEE008A8367 /* Frameworks */,
+				8415148E1EC79DEE008A8367 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841514921EC79DEE008A8367 /* PBXTargetDependency */,
+			);
+			name = swift3FormValidatorUITests;
+			productName = swift3FormValidatorUITests;
+			productReference = 841514901EC79DEE008A8367 /* swift3FormValidatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		841514691EC79DED008A8367 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					841514701EC79DED008A8367 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					841514841EC79DEE008A8367 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 841514701EC79DED008A8367;
+					};
+					8415148F1EC79DEE008A8367 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 841514701EC79DED008A8367;
+					};
+				};
+			};
+			buildConfigurationList = 8415146C1EC79DED008A8367 /* Build configuration list for PBXProject "swift3FormValidator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 841514681EC79DED008A8367;
+			productRefGroup = 841514721EC79DEE008A8367 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				841514701EC79DED008A8367 /* swift3FormValidator */,
+				841514841EC79DEE008A8367 /* swift3FormValidatorTests */,
+				8415148F1EC79DEE008A8367 /* swift3FormValidatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8415146F1EC79DED008A8367 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8415147F1EC79DEE008A8367 /* LaunchScreen.storyboard in Resources */,
+				8415147C1EC79DEE008A8367 /* Assets.xcassets in Resources */,
+				8415147A1EC79DEE008A8367 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841514831EC79DEE008A8367 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8415148E1EC79DEE008A8367 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8415146D1EC79DED008A8367 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841514A31EC7A022008A8367 /* formValidatorSwift.swift in Sources */,
+				841514771EC79DEE008A8367 /* ViewController.swift in Sources */,
+				841514751EC79DEE008A8367 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841514811EC79DEE008A8367 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8415148A1EC79DEE008A8367 /* swift3FormValidatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8415148C1EC79DEE008A8367 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841514951EC79DEE008A8367 /* swift3FormValidatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		841514871EC79DEE008A8367 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 841514701EC79DED008A8367 /* swift3FormValidator */;
+			targetProxy = 841514861EC79DEE008A8367 /* PBXContainerItemProxy */;
+		};
+		841514921EC79DEE008A8367 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 841514701EC79DED008A8367 /* swift3FormValidator */;
+			targetProxy = 841514911EC79DEE008A8367 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		841514781EC79DEE008A8367 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841514791EC79DEE008A8367 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8415147D1EC79DEE008A8367 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8415147E1EC79DEE008A8367 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		841514971EC79DEE008A8367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		841514981EC79DEE008A8367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8415149A1EC79DEE008A8367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = swift3FormValidator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abbie.swift3validator.swift3FormValidator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8415149B1EC79DEE008A8367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = swift3FormValidator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abbie.swift3validator.swift3FormValidator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8415149D1EC79DEE008A8367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = swift3FormValidatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abbie.swift3validator.swift3FormValidatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift3FormValidator.app/swift3FormValidator";
+			};
+			name = Debug;
+		};
+		8415149E1EC79DEE008A8367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = swift3FormValidatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abbie.swift3validator.swift3FormValidatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift3FormValidator.app/swift3FormValidator";
+			};
+			name = Release;
+		};
+		841514A01EC79DEE008A8367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = swift3FormValidatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abbie.swift3validator.swift3FormValidatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = swift3FormValidator;
+			};
+			name = Debug;
+		};
+		841514A11EC79DEE008A8367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = swift3FormValidatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abbie.swift3validator.swift3FormValidatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = swift3FormValidator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8415146C1EC79DED008A8367 /* Build configuration list for PBXProject "swift3FormValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841514971EC79DEE008A8367 /* Debug */,
+				841514981EC79DEE008A8367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841514991EC79DEE008A8367 /* Build configuration list for PBXNativeTarget "swift3FormValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8415149A1EC79DEE008A8367 /* Debug */,
+				8415149B1EC79DEE008A8367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8415149C1EC79DEE008A8367 /* Build configuration list for PBXNativeTarget "swift3FormValidatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8415149D1EC79DEE008A8367 /* Debug */,
+				8415149E1EC79DEE008A8367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8415149F1EC79DEE008A8367 /* Build configuration list for PBXNativeTarget "swift3FormValidatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841514A01EC79DEE008A8367 /* Debug */,
+				841514A11EC79DEE008A8367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 841514691EC79DED008A8367 /* Project object */;
+}
